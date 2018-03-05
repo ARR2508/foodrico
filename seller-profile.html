@@ -371,117 +371,115 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <div class="default-tab">
-                                    <nav>
-                                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
-                                                aria-selected="true">Stocks</a>
-                                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
-                                                aria-selected="false">Transaction</a>
-                                            <a class="nav-link disabled" href="#">Date:</a>
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+                                            aria-selected="true">Stocks</a>
+                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                            aria-selected="false">Transaction</a>
+                                        <a class="nav-link disabled" href="#">Date:</a>
+                                    </div>
+                                </nav>
+                                <div class="tab-content pl-3 pt-2" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead class="thead-dark">
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">Items</th>
+                                                        <th scope="col">Qty</th>
+                                                        <th scope="col">Grade</th>
+                                                        <th scope="col" class="text-center">Price (RM)</th>
+                                                        <th scope="col" class="text-center">Demand (Kg)</th>
+                                                        <th scope="col" class="text-center">
+                                                            <i class="fa fa-whatsapp"></i>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>
+                                                            <select name="select" id="items" class="form-control">
+                                                                <option value="1">Long Bean</option>
+                                                                <option value="2">Lady Finger</option>
+                                                                <option value="3">Ananas</option>
+                                                            </select>
+                                                        </td>
+                                                        <td>
+                                                            <input type="number" id="postal-code" class="form-control">
+                                                        </td>
+                                                        <td>
+                                                            <select name="select" id="items" class="form-control">
+                                                                <option value="A">A</option>
+                                                                <option value="B">B</option>
+                                                                <option value="C">C</option>
+                                                            </select>
+                                                        </td>
+                                                        <td>
+                                                            <input type="number" id="input1-group1" name="input1-group1" class="form-control" />
+                                                        </td>
+                                                        <td>
+                                                            <input type="number" id="input1-group1" name="input1-group1" class="form-control" />
+                                                        </td>
+                                                        <td>
+                                                            <button type="button" class="btn btn-info">Send</button>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
-                                    </nav>
-                                    <div class="tab-content pl-3 pt-2" id="nav-tabContent">
-                                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                                            <div class="table-responsive">
-                                                <table class="table">
-                                                    <thead class="thead-dark">
-                                                        <tr>
-                                                            <th scope="col">#</th>
-                                                            <th scope="col">Items</th>
-                                                            <th scope="col">Qty</th>
-                                                            <th scope="col">Grade</th>
-                                                            <th scope="col" class="text-center">Price (RM)</th>
-                                                            <th scope="col" class="text-center">Demand (Kg)</th>
-                                                            <th scope="col" class="text-center">
-                                                                <i class="fa fa-whatsapp"></i>
-                                                            </th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <th scope="row">1</th>
-                                                            <td>
-                                                                <select name="select" id="items" class="form-control">
-                                                                    <option value="1">Long Bean</option>
-                                                                    <option value="2">Lady Finger</option>
-                                                                    <option value="3">Ananas</option>
-                                                                </select>
-                                                            </td>
-                                                            <td>
-                                                                <input type="number" id="postal-code" class="form-control">
-                                                            </td>
-                                                            <td>
-                                                                <select name="select" id="items" class="form-control">
-                                                                    <option value="A">A</option>
-                                                                    <option value="B">B</option>
-                                                                    <option value="C">C</option>
-                                                                </select>
-                                                            </td>
-                                                            <td>
-                                                                <input type="number" id="input1-group1" name="input1-group1" class="form-control" />
-                                                            </td>
-                                                            <td>
-                                                                <input type="number" id="input1-group1" name="input1-group1" class="form-control" />
-                                                            </td>
-                                                            <td>
-                                                                <button type="button" class="btn btn-info">Send</button>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
 
-                                            <div class="text-center">
-                                                <button type="button" class="btn btn-primary btn-sm">
-                                                    <i class="fa fa-plus"></i>&nbsp; Add
-                                                </button>
-                                                <button type="button" class="btn btn-success btn-sm">
-                                                    <i class="fa fa-check"></i>&nbsp; Submit
-                                                </button>
-                                            </div>
+                                        <div class="text-center">
+                                            <button type="button" class="btn btn-primary btn-sm">
+                                                <i class="fa fa-plus"></i>&nbsp; Add
+                                            </button>
+                                            <button type="button" class="btn btn-success btn-sm">
+                                                <i class="fa fa-check"></i>&nbsp; Submit
+                                            </button>
                                         </div>
-                                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                            <div class="table-responsive">
-                                                <table class="table">
-                                                    <thead class="thead-dark text-light">
-                                                        <tr>
-                                                            <th scope="col">Date</th>
-                                                            <th scope="col">Order #</th>
-                                                            <th scope="col">Amount</th>
-                                                            <th scope="col">Status</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <th>21/2/18</th>
-                                                            <td>
-                                                                <a data-toggle="modal" data-target="#staticModal" class="text-info">ABC12345</a>
-                                                            </td>
-                                                            <td>RM 120.00</td>
-                                                            <td>
-                                                                <span class="text-success">Paid</span>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>21/2/18</th>
-                                                            <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12346</td>
-                                                            <td>RM 1400.00</td>
-                                                            <td>
-                                                                <span class="text-danger">Pending</span>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>21/2/18</th>
-                                                            <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12348</td>
-                                                            <td>RM 3000.00</td>
-                                                            <td>
-                                                                <span class="text-danger">Pending</span>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead class="thead-dark text-light">
+                                                    <tr>
+                                                        <th scope="col">Date</th>
+                                                        <th scope="col">Order #</th>
+                                                        <th scope="col">Amount</th>
+                                                        <th scope="col">Status</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>21/2/18</th>
+                                                        <td>
+                                                            <a data-toggle="modal" data-target="#staticModal" class="text-info">ABC12345</a>
+                                                        </td>
+                                                        <td>RM 120.00</td>
+                                                        <td>
+                                                            <span class="text-success">Paid</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>21/2/18</th>
+                                                        <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12346</td>
+                                                        <td>RM 1400.00</td>
+                                                        <td>
+                                                            <span class="text-danger">Pending</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>21/2/18</th>
+                                                        <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12348</td>
+                                                        <td>RM 3000.00</td>
+                                                        <td>
+                                                            <span class="text-danger">Pending</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
                                     </div>
                                 </div>
