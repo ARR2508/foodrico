@@ -85,7 +85,7 @@
             <div class="col-sm-4">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>Seller profile</h1>
+                        <h1>Buyer profile</h1>
                     </div>
                 </div>
             </div>
@@ -102,39 +102,34 @@
 
         <div class="content mt-3">
             <div class="col-sm-12">
-                <section class="card">
-                    <div class="twt-feed blue-bg">
-                        <div class="corner-ribon black-ribon">
-                            <i class="fa fa-twitter"></i>
-                        </div>
-                        <div class="fa fa-twitter wtt-mark"></div>
-
-                        <div class="media">
-                            <a href="#">
-                                <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt="" src="images/admin.jpg">
-                            </a>
-                            <div class="media-body">
-                                <h2 class="text-white display-6">Wan Muzaffar</h2>
-                                <p class="text-light">Project Manager</p>
+                <div class="card">
+                            <div class="card-body">
+                                <div class="col-6">
+                                <div class="mx-auto d-block">
+                                    <img class=" mx-auto d-block" src="images/admin.jpg" alt="Card image cap">
+                                   </div>
+                               </div>
+                                   
+                              
+                         
+                                <div class="col-6">
+                                <div class="card-text text-sm-center">
+                                     <h5 class="text-sm-center mt-2 mb-1">Wan Muzaffar</h5>
+                                    <div class="location text-sm-center">ABCD 1234</div>
+                                    <div class="location text-sm-center">123445</div>
+                                    <div class="location text-sm-center">Sungai Ramal Bangi</div>
+                                    <div class="location text-sm-center">9 a.m. - 10p.m</div>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                    </div>
-                    <footer class="twt-footer">
-                        <a href="#"><i class="fa fa-camera"></i></a>
-                        <a href="#"><i class="fa fa-map-marker"></i></a>
-                        New Castle, UK
-                        <span class="pull-right">
-                            32
-                        </span>
-                    </footer>
-                </section>
             </div>
             <div class="col-sm-12">
                 <div class="card">
                     <div class="card-body">
                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Stocks</a>
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Order tracking</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Transaction
@@ -143,14 +138,37 @@
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <div class="row">
-                                  <div class="col-3"><input type="text" class="form-control" id="exampleInputName2" placeholder="Items"></div>
-                                  <div class="col-3" ><input type="text" class="form-control" id="exampleInputName2" placeholder="Quantity"></div>
-                                  <div class="col-3"><input type="text" class="form-control" id="exampleInputName2" placeholder="Grade"></div>
-                                  <div class="col-3"><input type="text" class="form-control" id="exampleInputName2" placeholder="Price"></div>
-                                  </div>
-                                 <button type="button" class="btn btn-primary"><i class="fa fa-star"></i>&nbsp; Add Items</button>
-                                    <button type="button" class="btn btn-secondary"><i class="fa fa-lightbulb-o"></i>&nbsp; Submit</button>
+                                <table class="table">
+                                    <thead class="bg-danger text-light">
+                                <tr>
+                                  <th scope="col">Date</th>
+                                  <th scope="col">Order #</th>
+                                  <th scope="col">Amount</th>
+                                  <th scope="col">Status</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th>21/2/18</th>
+                                  <td ><a data-toggle="modal" data-target="#mediumModal">ABC12345</a></td>
+                                  <td>RM 120.00</td>
+                                  <td>Pending</td>
+                                </tr>
+                                <tr>
+                                  <th>21/2/18</th>
+                                  <td>ABC12346</td>
+                                  <td>RM 1400.00</td>
+                                  <td>Paid</td>
+                                </tr>
+                                <tr>
+                                  <th>21/2/18</th>
+                                  <td>ABC12348</td>
+                                  <td>RM 3000.00</td>
+                                  <td>Paid</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
                             </div>
                             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                                 <table class="table">
