@@ -2,7 +2,10 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,19 +24,199 @@
     <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
     <!-- <link rel="stylesheet" href="assets/css/bootstrap-select.less"> -->
     <link rel="stylesheet" href="assets/scss/style.css">
-    <link href="assets/css/lib/vector-map/jqvmap.min.css" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script> -->
 
 </head>
+
 <body>
+    <!-- Left Panel -->
 
+    <aside id="left-panel" class="left-panel">
+        <nav class="navbar navbar-expand-sm navbar-default">
 
-        <!-- Left Panel -->
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="./">
+                    <img src="images/logo/frLOGO02.png" alt="Logo">
+                </a>
+                <a class="navbar-brand hidden" href="./">
+                    <img src="images/logo/frLOGO01.png" alt="Logo">
+                </a>
+            </div>
 
-    
+            <div id="main-menu" class="main-menu collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">
+                            <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+                    </li>
+                    <h3 class="menu-title">UI elements</h3>
+                    <!-- /.menu-title -->
+                    <li class="menu-item-has-children active dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="menu-icon fa fa-laptop"></i>Components</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li>
+                                <i class="fa fa-puzzle-piece"></i>
+                                <a href="ui-buttons.html">Buttons</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-id-badge"></i>
+                                <a href="ui-badges.html">Badges</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-bars"></i>
+                                <a href="ui-tabs.html">Tabs</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-share-square-o"></i>
+                                <a href="ui-social-buttons.html">Social Buttons</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-id-card-o"></i>
+                                <a href="ui-cards.html">Cards</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-exclamation-triangle"></i>
+                                <a href="ui-alerts.html">Alerts</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-spinner"></i>
+                                <a href="ui-progressbar.html">Progress Bars</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-fire"></i>
+                                <a href="ui-modals.html">Modals</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-book"></i>
+                                <a href="ui-switches.html">Switches</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-th"></i>
+                                <a href="ui-grids.html">Grids</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-file-word-o"></i>
+                                <a href="ui-typgraphy.html">Typography</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="menu-icon fa fa-table"></i>Tables</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li>
+                                <i class="fa fa-table"></i>
+                                <a href="tables-basic.html">Basic Table</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-table"></i>
+                                <a href="tables-data.html">Data Table</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="menu-icon fa fa-th"></i>Forms</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li>
+                                <i class="menu-icon fa fa-th"></i>
+                                <a href="forms-basic.html">Basic Form</a>
+                            </li>
+                            <li>
+                                <i class="menu-icon fa fa-th"></i>
+                                <a href="forms-advanced.html">Advanced Form</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <h3 class="menu-title">Icons</h3>
+                    <!-- /.menu-title -->
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="menu-icon fa fa-tasks"></i>Icons</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li>
+                                <i class="menu-icon fa fa-fort-awesome"></i>
+                                <a href="font-fontawesome.html">Font Awesome</a>
+                            </li>
+                            <li>
+                                <i class="menu-icon ti-themify-logo"></i>
+                                <a href="font-themify.html">Themefy Icons</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="widgets.html">
+                            <i class="menu-icon ti-email"></i>Widgets </a>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="menu-icon fa fa-bar-chart"></i>Charts</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li>
+                                <i class="menu-icon fa fa-line-chart"></i>
+                                <a href="charts-chartjs.html">Chart JS</a>
+                            </li>
+                            <li>
+                                <i class="menu-icon fa fa-area-chart"></i>
+                                <a href="charts-flot.html">Flot Chart</a>
+                            </li>
+                            <li>
+                                <i class="menu-icon fa fa-pie-chart"></i>
+                                <a href="charts-peity.html">Peity Chart</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="menu-icon fa fa-area-chart"></i>Maps</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li>
+                                <i class="menu-icon fa fa-map-o"></i>
+                                <a href="maps-gmap.html">Google Maps</a>
+                            </li>
+                            <li>
+                                <i class="menu-icon fa fa-street-view"></i>
+                                <a href="maps-vector.html">Vector Maps</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <h3 class="menu-title">Extras</h3>
+                    <!-- /.menu-title -->
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="menu-icon fa fa-glass"></i>Pages</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li>
+                                <i class="menu-icon fa fa-sign-in"></i>
+                                <a href="page-login.html">Login</a>
+                            </li>
+                            <li>
+                                <i class="menu-icon fa fa-sign-in"></i>
+                                <a href="page-register.html">Register</a>
+                            </li>
+                            <li>
+                                <i class="menu-icon fa fa-paper-plane"></i>
+                                <a href="pages-forget.html">Forget Pass</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+    </aside>
+    <!-- /#left-panel -->
 
     <!-- Left Panel -->
 
@@ -42,18 +225,24 @@
     <div id="right-panel" class="right-panel">
 
         <!-- Header-->
-        <header id="header" class="header primary-color ">
+        <header id="header" class="header">
 
             <div class="header-menu">
 
                 <div class="col-sm-7">
-                    <a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-tasks"></i></a>
+                    <a id="menuToggle" class="menutoggle pull-left">
+                        <i class="fa fa fa-tasks"></i>
+                    </a>
                     <div class="header-left">
-                        <button class="search-trigger"><i class="fa fa-search"></i></button>
+                        <button class="search-trigger">
+                            <i class="fa fa-search"></i>
+                        </button>
                         <div class="form-inline">
                             <form class="search-form">
                                 <input class="form-control mr-sm-2" type="text" placeholder="Search ..." aria-label="Search">
-                                <button class="search-close" type="submit"><i class="fa fa-close"></i></button>
+                                <button class="search-close" type="submit">
+                                    <i class="fa fa-close"></i>
+                                </button>
                             </form>
                         </div>
                     </div>
@@ -66,26 +255,33 @@
                         </a>
 
                         <div class="user-menu dropdown-menu">
-                                <a class="nav-link" href="#"><i class="fa fa- user"></i>My Profile</a>
+                            <a class="nav-link" href="#">
+                                <i class="fa fa- user"></i>My Profile</a>
 
-                                <a class="nav-link" href="#"><i class="fa fa- user"></i>Notifications <span class="count">13</span></a>
+                            <a class="nav-link" href="#">
+                                <i class="fa fa- user"></i>Notifications
+                                <span class="count">13</span>
+                            </a>
 
-                                <a class="nav-link" href="#"><i class="fa fa -cog"></i>Settings</a>
+                            <a class="nav-link" href="#">
+                                <i class="fa fa -cog"></i>Settings</a>
 
-                                <a class="nav-link" href="#"><i class="fa fa-power -off"></i>Logout</a>
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-power -off"></i>Logout</a>
                         </div>
                     </div>
+
                 </div>
             </div>
 
-        </header><!-- /header -->
-        <!-- Header-->
+        </header>
+        <!-- /header -->
 
         <div class="breadcrumbs">
             <div class="col-sm-4">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>Seller profile</h1>
+                        <h1>Seller Profile</h1>
                     </div>
                 </div>
             </div>
@@ -93,191 +289,239 @@
                 <div class="page-header float-right">
                     <div class="page-title">
                         <ol class="breadcrumb text-right">
-                            <li class="active">Wan Muzaffar</li>
+                            <li>
+                                <a href="#">Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="#">UI Elements</a>
+                            </li>
+                            <li class="active">Cards</li>
                         </ol>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="modal fade" id="staticModal" tabindex="-1" role="dialog" aria-labelledby="staticModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticModalLabel">21/2/18 | ABC12345</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Long Bean (Grade A)</td>
+                                            <td>x</td>
+                                            <td>3kg</td>
+                                            <td>RM 30.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Long Bean (Grade B)</td>
+                                            <td>x</td>
+                                            <td>50kg</td>
+                                            <td>RM 50.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Long Bean (Grade C)</td>
+                                            <td>x</td>
+                                            <td>100kg</td>
+                                            <td>RM 50.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4">
+                                                Status:
+                                                <span class="text-success">Paid</span>
+                                            </td>
+                                            <td>RM 120.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="content mt-3">
-            <div class="col-sm-12">
-                <div class="card">
-                            <div class="card-body">
-                                <div class="col-6">
-                                <div class="mx-auto d-block">
-                                    <img class=" mx-auto d-block" src="images/admin.jpg" alt="Card image cap">
-                                   </div>
-                               </div>
-                                   
-                              
-                         
-                                <div class="col-6">
-                                <div class="card-text text-sm-center">
-                                     <h5 class="text-sm-center mt-2 mb-1">Wan Muzaffar</h5>
-                                    <div class="location text-sm-center">ABCD 1234</div>
-                                    <div class="location text-sm-center">123445</div>
-                                    <div class="location text-sm-center">Sungai Ramal Bangi</div>
-                                    <div class="location text-sm-center">9 a.m. - 10p.m</div>
+            <div class="animated fadeIn">
+                <div class="row">
+
+                    <div class="col-lg-5">
+                        <section class="card">
+                            <div class="twt-feed blue-bg">
+                                <div class="corner-ribon black-ribon">
+                                    <i class="fa fa-user"></i>
+                                </div>
+
+                                <div class="media">
+                                    <a href="#">
+                                        <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt="" src="images/admin.jpg">
+                                    </a>
+                                    <div class="media-body">
+                                        <h2 class="text-white display-6">Wan Muzaffar</h2>
+                                        <p class="text-light">
+                                            Common Room Bangi
+                                            <br /> MDR Tech
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
+                        </section>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="default-tab">
+                                    <nav>
+                                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+                                                aria-selected="true">Stocks</a>
+                                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                                aria-selected="false">Transaction</a>
+                                            <a class="nav-link disabled" href="#">Date:</a>
+                                        </div>
+                                    </nav>
+                                    <div class="tab-content pl-3 pt-2" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead class="thead-dark">
+                                                        <tr>
+                                                            <th scope="col">#</th>
+                                                            <th scope="col">Items</th>
+                                                            <th scope="col">Qty</th>
+                                                            <th scope="col">Grade</th>
+                                                            <th scope="col" class="text-center">Price (RM)</th>
+                                                            <th scope="col" class="text-center">Demand (Kg)</th>
+                                                            <th scope="col" class="text-center">
+                                                                <i class="fa fa-whatsapp"></i>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>
+                                                                <select name="select" id="items" class="form-control">
+                                                                    <option value="1">Long Bean</option>
+                                                                    <option value="2">Lady Finger</option>
+                                                                    <option value="3">Ananas</option>
+                                                                </select>
+                                                            </td>
+                                                            <td>
+                                                                <input type="number" id="postal-code" class="form-control">
+                                                            </td>
+                                                            <td>
+                                                                <select name="select" id="items" class="form-control">
+                                                                    <option value="A">A</option>
+                                                                    <option value="B">B</option>
+                                                                    <option value="C">C</option>
+                                                                </select>
+                                                            </td>
+                                                            <td>
+                                                                <input type="number" id="input1-group1" name="input1-group1" class="form-control" />
+                                                            </td>
+                                                            <td>
+                                                                <input type="number" id="input1-group1" name="input1-group1" class="form-control" />
+                                                            </td>
+                                                            <td>
+                                                                <button type="button" class="btn btn-info">Send</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                            <div class="text-center">
+                                                <button type="button" class="btn btn-primary btn-sm">
+                                                    <i class="fa fa-plus"></i>&nbsp; Add
+                                                </button>
+                                                <button type="button" class="btn btn-success btn-sm">
+                                                    <i class="fa fa-check"></i>&nbsp; Submit
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead class="thead-dark text-light">
+                                                        <tr>
+                                                            <th scope="col">Date</th>
+                                                            <th scope="col">Order #</th>
+                                                            <th scope="col">Amount</th>
+                                                            <th scope="col">Status</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th>21/2/18</th>
+                                                            <td>
+                                                                <a data-toggle="modal" data-target="#staticModal" class="text-info">ABC12345</a>
+                                                            </td>
+                                                            <td>RM 120.00</td>
+                                                            <td>
+                                                                <span class="text-success">Paid</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>21/2/18</th>
+                                                            <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12346</td>
+                                                            <td>RM 1400.00</td>
+                                                            <td>
+                                                                <span class="text-danger">Pending</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>21/2/18</th>
+                                                            <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12348</td>
+                                                            <td>RM 3000.00</td>
+                                                            <td>
+                                                                <span class="text-danger">Pending</span>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-            </div>
-            <div class="col-sm-12">
-                <div class="card">
-                    <div class="card-body">
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Stocks</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Transaction
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <div class="row">
-                                  <div class="col-3"><input type="text" class="form-control" id="exampleInputName2" placeholder="Items"></div>
-                                  <div class="col-3" ><input type="text" class="form-control" id="exampleInputName2" placeholder="Quantity"></div>
-                                  <div class="col-3"><input type="text" class="form-control" id="exampleInputName2" placeholder="Grade"></div>
-                                  <div class="col-3"><input type="text" class="form-control" id="exampleInputName2" placeholder="Price"></div>
-                                  </div>
-                                 <button type="button" class="btn btn-primary"><i class="fa fa-star"></i>&nbsp; Add Items</button>
-                                    <button type="button" class="btn btn-secondary"><i class="fa fa-lightbulb-o"></i>&nbsp; Submit</button>
-                            </div>
-                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                <table class="table">
-                                    <thead class="bg-danger text-light">
-                                <tr>
-                                  <th scope="col">Date</th>
-                                  <th scope="col">Order #</th>
-                                  <th scope="col">Amount</th>
-                                  <th scope="col">Status</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <th>21/2/18</th>
-                                  <td ><a data-toggle="modal" data-target="#mediumModal">ABC12345</a></td>
-                                  <td>RM 120.00</td>
-                                  <td>Pending</td>
-                                </tr>
-                                <tr>
-                                  <th>21/2/18</th>
-                                  <td>ABC12346</td>
-                                  <td>RM 1400.00</td>
-                                  <td>Paid</td>
-                                </tr>
-                                <tr>
-                                  <th>21/2/18</th>
-                                  <td>ABC12348</td>
-                                  <td>RM 3000.00</td>
-                                  <td>Paid</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            </div>
-</div>
                     </div>
+
                 </div>
+                <!-- .row -->
             </div>
-            
+            <!-- .animated -->
+        </div>
+        <!-- .content -->
 
 
+    </div>
+    <!-- /#right-panel -->
 
     <!-- Right Panel -->
-    <div class="modal fade" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="mediumModalLabel">Order #ABC12345</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <p>
-                                   <table class="table">
-                                    <thead class="bg-danger text-light">
-                                <tr>
-                                  <th scope="col">Item</th>
-                                  <th scope="col">Quantity</th>
-                                  <th scope="col">Amount</th>
-                            
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <th>Bendi</th>
-                                  <td >5kg</td>
-                                  <td>RM 120.00</td>
-                        
-                                </tr>
-                                <tr>
-                                  <th>Kobis</th>
-                                  <td>3kg</td>
-                                  <td>RM 1400.00</td>
-                              
-                                </tr>
-                                <tr>
-                                  <th>Kangkung</th>
-                                  <td>1kg</td>
-                                  <td>RM 3000.00</td>
-                                </tr>
-                                <tr>
-                                  <th>Amout</th>
-                                  <td></td>
-                                  <td>RM 5000.00</td>
-                                </tr>
-                                <tr>
-                                  <th>Paid</th>
-                                  <td></td>
-                                  <td></td>
-                                </tr>
-                              </tbody>
-                            </table>
-                                </p>
-                            </div>
-                            <div class="modal-footer">
-                               
-                                <button type="button" class="btn btn-primary">Confirm</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
     <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
-
-
-    <script src="assets/js/lib/chart-js/Chart.bundle.js"></script>
-    <script src="assets/js/dashboard.js"></script>
-    <script src="assets/js/widgets.js"></script>
-    <script src="assets/js/lib/vector-map/jquery.vmap.js"></script>
-    <script src="assets/js/lib/vector-map/jquery.vmap.min.js"></script>
-    <script src="assets/js/lib/vector-map/jquery.vmap.sampledata.js"></script>
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.world.js"></script>
-    <script>
-        ( function ( $ ) {
-            "use strict";
-
-            jQuery( '#vmap' ).vectorMap( {
-                map: 'world_en',
-                backgroundColor: null,
-                color: '#ffffff',
-                hoverOpacity: 0.7,
-                selectedColor: '#1de9b6',
-                enableZoom: true,
-                showTooltip: true,
-                values: sample_data,
-                scaleColors: [ '#1de9b6', '#03a9f5' ],
-                normalizeFunction: 'polynomial'
-            } );
-        } )( jQuery );
-    </script>
-
 </body>
+
 </html>
