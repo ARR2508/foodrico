@@ -2909,9 +2909,6 @@ header .form-inline .search-form.close {
   .twt-category {
     margin-bottom: 0;
   }
-  .twt-feed {
-    max-height: 155px;
-  }
   .twt-feed img {
     height: 75px;
     width: 75px;
