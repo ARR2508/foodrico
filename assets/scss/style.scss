@@ -1716,6 +1716,9 @@ header .form-inline {
                     display: none;
                 }
             }
+            .navbar .navbar-brand img {
+                max-height: 22px;
+            }
             .navbar-toggler {
                 float: right;
                 margin-top: 8px;
