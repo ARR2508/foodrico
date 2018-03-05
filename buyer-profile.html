@@ -278,11 +278,9 @@
         <!-- /header -->
 
         <div class="breadcrumbs">
-            <div class="col-xs-12">
-                <div class="page-header float-left">
-                    <div class="page-title">
-                        <h1>Buyer Profile</h1>
-                    </div>
+            <div class="page-header float-left">
+                <div class="page-title">
+                    <h1>Buyer Profile</h1>
                 </div>
             </div>
         </div>
@@ -343,139 +341,130 @@
 
         <div class="content mt-3">
             <div class="animated fadeIn">
-                <div class="row">
+                <section class="card">
+                    <div class="twt-feed blue-bg">
+                        <div class="corner-ribon black-ribon">
+                            <i class="fa fa-user"></i>
+                        </div>
 
-                    <div class="col-lg-5">
-                        <section class="card">
-                            <div class="twt-feed blue-bg">
-                                <div class="corner-ribon black-ribon">
-                                    <i class="fa fa-user"></i>
-                                </div>
+                        <div class="media">
+                            <a href="#">
+                                <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt="" src="images/admin.jpg">
+                            </a>
+                            <div class="media-body">
+                                <h2 class="text-white display-6">Wan Muzaffar</h2>
+                                <p class="text-light">
+                                    ??:
+                                    <br /> ED No:
+                                    <br /> Location:
+                                    <br /> Contact:
+                                    <br /> ???:
+                                    <br /> PIC:
+                                    <br /> Business ???:
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-                                <div class="media">
-                                    <a href="#">
-                                        <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt="" src="images/admin.jpg">
-                                    </a>
-                                    <div class="media-body">
-                                        <h2 class="text-white display-6">Wan Muzaffar</h2>
-                                        <p class="text-light">
-                                            ??:
-                                            <br /> ED No:
-                                            <br /> Location:
-                                            <br /> Contact:
-                                            <br /> ???:
-                                            <br /> PIC:
-                                            <br /> Business ???:
-                                        </p>
-                                    </div>
+                <div class="card">
+                    <div class="card-body">
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">Order Tracking</a>
+                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">Transaction</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content pl-3 pt-2" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead class="thead-dark text-light">
+                                            <tr>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Order #</th>
+                                                <th scope="col">Amount</th>
+                                                <th scope="col">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>21/2/18</th>
+                                                <td>
+                                                    <a data-toggle="modal" data-target="#staticModal" class="text-info">ABC12345</a>
+                                                </td>
+                                                <td>RM 120.00</td>
+                                                <td>
+                                                    <span class="text-success">Paid</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>21/2/18</th>
+                                                <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12346</td>
+                                                <td>RM 1400.00</td>
+                                                <td>
+                                                    <span class="text-danger">Pending</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>21/2/18</th>
+                                                <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12348</td>
+                                                <td>RM 3000.00</td>
+                                                <td>
+                                                    <span class="text-danger">Pending</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-                        </section>
-                    </div>
-
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <nav>
-                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
-                                            aria-selected="true">Order Tracking</a>
-                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
-                                            aria-selected="false">Transaction</a>
-                                    </div>
-                                </nav>
-                                <div class="tab-content pl-3 pt-2" id="nav-tabContent">
-                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                                        <div class="table-responsive">
-                                            <table class="table">
-                                                <thead class="thead-dark text-light">
-                                                    <tr>
-                                                        <th scope="col">Date</th>
-                                                        <th scope="col">Order #</th>
-                                                        <th scope="col">Amount</th>
-                                                        <th scope="col">Status</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <th>21/2/18</th>
-                                                        <td>
-                                                            <a data-toggle="modal" data-target="#staticModal" class="text-info">ABC12345</a>
-                                                        </td>
-                                                        <td>RM 120.00</td>
-                                                        <td>
-                                                            <span class="text-success">Paid</span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th>21/2/18</th>
-                                                        <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12346</td>
-                                                        <td>RM 1400.00</td>
-                                                        <td>
-                                                            <span class="text-danger">Pending</span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th>21/2/18</th>
-                                                        <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12348</td>
-                                                        <td>RM 3000.00</td>
-                                                        <td>
-                                                            <span class="text-danger">Pending</span>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                        <div class="table-responsive">
-                                            <table class="table">
-                                                <thead class="thead-dark text-light">
-                                                    <tr>
-                                                        <th scope="col">Date</th>
-                                                        <th scope="col">Order #</th>
-                                                        <th scope="col">Amount</th>
-                                                        <th scope="col">Status</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <th>21/2/18</th>
-                                                        <td>
-                                                            <a data-toggle="modal" data-target="#staticModal" class="text-info">ABC12345</a>
-                                                        </td>
-                                                        <td>RM 120.00</td>
-                                                        <td>
-                                                            <span class="text-success">Paid</span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th>21/2/18</th>
-                                                        <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12346</td>
-                                                        <td>RM 1400.00</td>
-                                                        <td>
-                                                            <span class="text-danger">Pending</span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th>21/2/18</th>
-                                                        <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12348</td>
-                                                        <td>RM 3000.00</td>
-                                                        <td>
-                                                            <span class="text-danger">Pending</span>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead class="thead-dark text-light">
+                                            <tr>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Order #</th>
+                                                <th scope="col">Amount</th>
+                                                <th scope="col">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>21/2/18</th>
+                                                <td>
+                                                    <a data-toggle="modal" data-target="#staticModal" class="text-info">ABC12345</a>
+                                                </td>
+                                                <td>RM 120.00</td>
+                                                <td>
+                                                    <span class="text-success">Paid</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>21/2/18</th>
+                                                <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12346</td>
+                                                <td>RM 1400.00</td>
+                                                <td>
+                                                    <span class="text-danger">Pending</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>21/2/18</th>
+                                                <td data-toggle="modal" data-target="#staticModal" class="text-info">ABC12348</td>
+                                                <td>RM 3000.00</td>
+                                                <td>
+                                                    <span class="text-danger">Pending</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <!-- .row -->
             </div>
             <!-- .animated -->
         </div>
