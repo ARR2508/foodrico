@@ -3076,6 +3076,9 @@ header .form-inline .search-form.close {
   .right-panel .content .tab-content.pl-3 {
     padding-left: 0 !important;
   }
+  .right-panel .content .tab-content.pr-3 {
+    padding-right: 0 !important;
+  }
   .right-panel .content #bootstrap-data-table_wrapper {
     font-size: 14px;
     padding: 0;
