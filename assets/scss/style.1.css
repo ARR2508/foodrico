@@ -1227,7 +1227,6 @@ aside.left-panel {
   border: none;
   display: block;
   margin: 0;
-  margin-bottom: 100px;
   padding: 0;
 }
 
@@ -1614,12 +1613,17 @@ body.open .navbar .navbar-brand.hidden {
 }
 
 .right-panel header.header {
-  background: #fff;
+  background: #272c33;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
   clear: both;
   display: inline-block;
   padding: 15px 20px 13px 20px;
   width: 100%;
+}
+
+.right-panel header.header .logo {
+  max-width: 150px;
+  margin-right: 10px;
 }
 
 .open .right-panel {
@@ -2987,23 +2991,23 @@ header .form-inline .search-form.close {
     margin-top: 11px;
     min-height: inherit;
   }
-  aside.left-panel .navbar .navbar-brand.hidden {
+  .right-panel .navbar .navbar-brand.hidden {
     display: none;
   }
-  aside.left-panel .navbar .navbar-brand img {
+  .right-panel .navbar .navbar-brand img {
     max-height: 22px;
   }
-  aside.left-panel .navbar .navbar-toggler {
+  .right-panel .navbar .navbar-toggler {
     float: right;
     margin-top: 8px;
   }
-  aside.left-panel .navbar .navbar-nav li>a {
+  .right-panel .navbar .navbar-nav li>a {
     padding: 5px 0;
   }
-  aside.left-panel .navbar .navbar-nav li.menu-item-has-children a:before {
+  .right-panel .navbar .navbar-nav li.menu-item-has-children a:before {
     top: 5px;
   }
-  aside.left-panel .navbar .menu-title {
+  .right-panel .navbar .menu-title {
     line-height: 30px;
     padding: 0;
   }
@@ -3014,7 +3018,7 @@ header .form-inline .search-form.close {
     display: block;
   }
   .right-panel header.header {
-    padding: 5px 10px 1px 5px;
+    padding: 10px 15px 7px 15px;
   }
   .right-panel header.header div[class*="col"] {
     padding: 0;
